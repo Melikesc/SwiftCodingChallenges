@@ -17,7 +17,7 @@ This repository consists of Swift code that contains solutions to various progra
 
 You need Xcode and the Swift language to run this code. Use the following Git command to clone the project to your local machine:
 
-git clone https://github.com/kullaniciAdi/SwiftCodingChallenges.git
+git clone https://github.com/Melikesc/SwiftCodingChallenges.git
 
 ## Usage
 
