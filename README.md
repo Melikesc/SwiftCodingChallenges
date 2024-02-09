@@ -24,10 +24,6 @@ You need Xcode and the Swift language to run this code. Use the following Git co
 
 Each class can be run independently and will give the relevant output on the console. For example, While Q1 class converts kilometers to miles, Class Q7 will calculate the parking fee.
 
-## Contribution
-
-If you want to contribute to this project, you can send pull requests or make improvements to existing code.
-
 ## License
 
 This project is licensed under the MIT license. See the `LICENSE` file for more information.
