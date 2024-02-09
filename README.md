@@ -21,7 +21,7 @@ git clone https://github.com/Melikesc/SwiftCodingChallenges.git
 
 ## Usage
 
-Each class can be run independently and will give the relevant output on the console. For example, While Q1 class converts kilometers to miles, Class Q7 will calculate the parking fee
+Each class can be run independently and will give the relevant output on the console. For example, While Q1 class converts kilometers to miles, Class Q7 will calculate the parking fee.
 
 ## Contribution
 
