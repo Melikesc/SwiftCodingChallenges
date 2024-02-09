@@ -1,6 +1,6 @@
 import UIKit
 
-/* 1.Parametre olarak girilen kilometreyi mile dönüştürdükten sonra geri döndüren bir metod yazınız. Mile = Km x 0.621 */
+/* 1. Write a method that returns the kilometer entered as a parameter after converting it to mile. Mile = Km x 0.621 */ 
 
 class Q1{
     func kmToMile(kilometer:Double)->Double{
@@ -13,8 +13,7 @@ class Q1{
     print("Conversion result: \(miles) miles.")
 
 
-/* 2.Kenarları parametre olarak girilen ve dikdörtgenin alanını
-hesaplayan bir metod yazınız. */
+/* 2. Write a method that calculates the area of a rectangle with sides as parameters. */
 
 class Q2{
     func calculateArea(longEdge : Int, shortEdge : Int) {
@@ -26,9 +25,7 @@ class Q2{
     question2.calculateArea(longEdge: 12, shortEdge: 5)
 
 
-
-/* 3.Parametre olarak girilen sayının faktoriyel değerini hesaplayıp geri
-döndüren metodu yazınız.*/
+/* 3. Write the method that calculates and returns the factorial value of the number entered as a parameter.*/
 
 class Q3{
     func calculateFactorial(n:Int) -> Int{
@@ -46,8 +43,7 @@ print("Factorial: \(factorial)")
 
 
 
-/* 4.Parametre olarak girilen kelime içinde kaç adet e harfi olduğunu
-gösteren bir metod yazınız.*/
+/* 4. Write a method that shows how many e letters are in the word entered as a parameter. */
 
 class Q4{
     func countLetters(word:String) {
@@ -64,8 +60,8 @@ let question4 = Q4()
 question4.countLetters(word: "Melike")
 
 
-/* 5.Parametre olarak girilen kenar sayısına göre her bir iç açıyı hesaplayıp sonucu geri gönderen metod yazınız. İç açılar toplamı = ( (Kenar sayısı - 2) x 180 ) / Kenar sayısı */
-
+/* 5. Write a method that calculates each interior angle according to the number of edges entered as a parameter and returns the result. 
+Sum of interior angles = ( (Number of edges - 2) x 180 ) / Number of edges */
 class Q5{
     func calculate(edge:Int) -> Double {
         let result = ( ( edge - 2 ) * 180) / edge
@@ -78,11 +74,11 @@ print("Each angle is \(question5), the sum of the interior angles is  \(question
 
 
 
-/* 6.Parametre olarak girilen gün sayısına göre maaş hesabı yapan ve elde edilen değeri döndüren metod yazınız.
-    • 1 günde 8 saat çalışılabilir.
-    • Çalışma saat ücreti : 40 ₺
-    • Mesai saat ücreti : 80 ₺
-    • 150 saat üzeri mesai sayılır. */
+/* 6. Write a method that calculates the salary according to the number of days entered as a parameter and returns the obtained value.
+    - 8 hours can be worked in 1 day.
+    - The hourly wage is : 40 ₺
+    - Working hour fee : 80 ₺
+    - Over 150 hours is considered overtime. */
 
 class Q6{
     func calculateSalary(day:Int)->Double{
@@ -109,9 +105,9 @@ var maas = question6.calculateSalary(day: 200)
 print("Net Salary is: \(maas)")
 
 
-/* 7.Parametre olarak girilen otopark süresine göre otopark ücreti hesaplayarak geri döndüren metodu yazınız.
-    • 1 saat = 50 ₺
-    • 1 saat aşımından sonra her 1 saat , 10 ₺’dir. */
+/* 7. Write the method that calculates and returns the parking fee according to the parking time entered as a parameter.
+    - 1 hour = 50 ₺
+    - After 1 hour, every 1 hour is 10 ₺. */
 
 class Q7{
     func parkingPrice(hour:Int) -> Int {
