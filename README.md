@@ -11,7 +11,13 @@ This repository consists of Swift code that contains solutions to various progra
 - **Calculating Interior Angles**: A method to calculate the interior angles of a polygon.
 - **Salary Calculation**: A method that calculates salary according to the number of days worked.
 - **Parking Fee Calculation**: A method that calculates the fee according to the time spent in the parking lot.
-
+- **Mean Calculation**: A method to calculate the average of an array of numbers.
+- **Array Modification**: A method to modify each element of an array.
+- **Odd and Even Numbers**: Methods to separate odd and even numbers from an array.
+- **Random Number Array**: A method to create and sort an array of random numbers.
+- **School Report**: A method to display grades for different subjects and calculate the average.
+- **Name Check**: A method to check if a specific name is in an array.
+- **Various Dictionary Operations**: Methods to manipulate dictionaries including adding, updating, removing entries, and filtering.
 
 ## Installation
 
